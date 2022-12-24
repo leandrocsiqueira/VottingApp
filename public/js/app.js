@@ -44,15 +44,6 @@ class ListaProdutos extends React.Component {
 }
 
 class Produto extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.manipulaVotoPositivo = this.manipulaVotoPositivo.bind(this);
-  // }
-
-  // manipulaVotoPositivo() {
-  //   this.props.votar(this.props.id);
-  // }
-
   manipulaVotoPositivo = () => this.props.votar(this.props.id);
 
   render() {
@@ -85,8 +76,4 @@ class Produto extends React.Component {
   }
 }
 
-/* O método a seguir determina o quê queremos renderizar (ListaProdutos) e
-   aonde desejaomos que isso seja feito (no elemento que possui o id --content--
-   dentro de index.html) 
-*/
 ReactDOM.render(<ListaProdutos />, document.getElementById('content'));
