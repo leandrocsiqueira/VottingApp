@@ -1,14 +1,12 @@
-# Voting App
-
-### Brief Description
-
-In this project, I developed a simple [React](https://reactjs.org/) voting application inspired by [Reddit](https://www.reddit.com/)
+# VotingApp
 
 ![Application screenshot](./public/images/screenshot/appScreenShot.png)
 
-Like those sites, in the app you can up-vote products. All products are sorted instantaneously by number of votes.
+Nesse projeto, desenvolvi uma aplicação em [React](https://reactjs.org/) similar ao [Reddit](https://www.reddit.com/).
 
-I also used [Semantic UI](https://semantic-ui.com/). Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.
+Na aplicação é possível votar positivamente nos produtos apresentados, sendo esses classificados automaticamente segundo a quantidade de votos recebida.
+
+Também usei o framework [Semantic UI](https://semantic-ui.com/) durante o desenvolvimento para criar layout responsivo usando HTML "amigável". 
 
 ### Running the app
 
